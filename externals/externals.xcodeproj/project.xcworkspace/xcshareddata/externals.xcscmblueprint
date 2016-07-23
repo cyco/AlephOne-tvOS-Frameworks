@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1A4A0B99CC552C39787ABB09A86BBC3C8A538AF3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7F526783529F263CFCC964EC9C0A3857A3D8C64E" : 0,
+    "FA0D03541D75E05B348C14054FD897B577F8EE2A" : 0,
+    "1A4A0B99CC552C39787ABB09A86BBC3C8A538AF3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "01B17570-4D86-4BED-833C-36A944C39C5E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7F526783529F263CFCC964EC9C0A3857A3D8C64E" : "marathon-ios\/",
+    "FA0D03541D75E05B348C14054FD897B577F8EE2A" : "alephone-tvos\/Externals\/freetype2-ios\/",
+    "1A4A0B99CC552C39787ABB09A86BBC3C8A538AF3" : "AlephOne-tvOS\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "externals",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Externals\/externals\/externals.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cyco\/alephone-tvos.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1A4A0B99CC552C39787ABB09A86BBC3C8A538AF3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/blezek\/marathon-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F526783529F263CFCC964EC9C0A3857A3D8C64E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cdave1\/freetype2-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FA0D03541D75E05B348C14054FD897B577F8EE2A"
+    }
+  ]
+}
