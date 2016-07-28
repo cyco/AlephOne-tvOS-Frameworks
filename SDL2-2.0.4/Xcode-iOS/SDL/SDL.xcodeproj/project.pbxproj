@@ -276,7 +276,7 @@
 		56ED04E0118A8EE200A56AA6 /* SDL_power.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_power.c; path = ../../src/power/SDL_power.c; sourceTree = SOURCE_ROOT; };
 		56ED04E2118A8EFD00A56AA6 /* SDL_syspower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDL_syspower.m; path = ../../src/power/uikit/SDL_syspower.m; sourceTree = SOURCE_ROOT; };
 		834663541D3C20920046E13E /* SDL_config_tvos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDL_config_tvos.h; sourceTree = "<group>"; };
-		834C16651D3D55FF008D065F /* Callbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Callbacks.h; path = "/Users/chris/Desktop/AlephOne-tvOS/Callbacks.h"; sourceTree = "<absolute>"; };
+		834C16651D3D55FF008D065F /* Callbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Callbacks.h; path = ../../../../Callbacks.h; sourceTree = "<group>"; };
 		93CB792213FC5E5200BD3E05 /* SDL_uikitviewcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_uikitviewcontroller.h; sourceTree = "<group>"; };
 		93CB792513FC5F5300BD3E05 /* SDL_uikitviewcontroller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDL_uikitviewcontroller.m; sourceTree = "<group>"; };
 		AA0AD06116647BBB00CE5896 /* SDL_gamecontroller.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gamecontroller.c; sourceTree = "<group>"; };

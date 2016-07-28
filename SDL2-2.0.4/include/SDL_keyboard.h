@@ -205,7 +205,10 @@ extern DECLSPEC SDL_bool SDLCALL SDL_HasScreenKeyboardSupport(void);
  *  \sa SDL_HasScreenKeyboardSupport()
  */
 extern DECLSPEC SDL_bool SDLCALL SDL_IsScreenKeyboardShown(SDL_Window *window);
-
+    
+#if TARGET_OS_TV
+extern DECLSPEC Uint8 *SDLCALL SDL_GetMutableKeyboardState(int *numkeys);    
+#endif
 /* Ends C function definitions when using C++ */
 #ifdef __cplusplus
 }

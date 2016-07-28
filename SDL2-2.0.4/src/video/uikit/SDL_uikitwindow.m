@@ -42,6 +42,10 @@
 
 #include <Foundation/Foundation.h>
 
+#if TARGET_OS_TV
+#import "Callbacks.h"
+#endif
+
 @implementation SDL_WindowData
 
 @synthesize uiwindow;
@@ -235,8 +239,12 @@ void
 UIKit_ShowWindow(_THIS, SDL_Window * window)
 {
     @autoreleasepool {
+#if TARGET_OS_TV
+        return;
+#else
         SDL_WindowData *data = (__bridge SDL_WindowData *) window->driverdata;
         [data.uiwindow makeKeyAndVisible];
+#endif
     }
 }
 

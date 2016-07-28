@@ -1013,4 +1013,16 @@ SDL_GetKeyFromName(const char *name)
     }
 }
 
+#if TARGET_OS_TV
+Uint8 *
+SDL_GetMutableKeyboardState(int *numkeys)
+{
+    SDL_Keyboard *keyboard = &SDL_keyboard;
+    
+    if (numkeys != (int *) 0) {
+        *numkeys = SDL_NUM_SCANCODES;
+    }
+    return keyboard->keystate;
+}
+#endif
 /* vi: set ts=4 sw=4 expandtab: */

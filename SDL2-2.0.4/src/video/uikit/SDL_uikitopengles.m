@@ -188,7 +188,7 @@ UIKit_GL_CreateContext(_THIS, SDL_Window * window)
                                                      sRGB:_this->gl_config.framebuffer_srgb_capable
                                              multisamples:samples
                                                   context:context];
-
+        setOpenGLView((__bridge void *)(view));
         if (!view) {
             return NULL;
         }
